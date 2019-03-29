@@ -1,4 +1,4 @@
-package my.suveng.rss.modules.rss.entity;
+package my.suveng.rss.modules.source.entity;
 
 import lombok.Data;
 

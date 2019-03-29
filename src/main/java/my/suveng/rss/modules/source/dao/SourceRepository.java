@@ -1,7 +1,6 @@
-package my.suveng.rss.modules.rss.dao;
+package my.suveng.rss.modules.source.dao;
 
-import my.suveng.rss.modules.rss.entity.Source;
-import my.suveng.rss.modules.user.entity.User;
+import my.suveng.rss.modules.source.entity.Source;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

@@ -11,8 +11,19 @@ spring:
       hibernate:
         dialect: my.suveng.rss.config.MySQL5DialectUTF8
         hbm2ddl:
-          auto: create
+          auto: update
         format_sql: true
+#redis
+  redis:
+    host: 192.168.1.201
+    port: 6379
+#    password: root
+    jedis:
+      pool:
+        max-wait: 1
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
   freemarker:
     template-loader-path: classpath:/templates/
     cache: false
