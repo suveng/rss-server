@@ -15,7 +15,7 @@ spring:
         format_sql: true
 #redis
   redis:
-    host: 129.204.52.252
+    host: 132.232.71.94
     port: 6379
 # password: root
     jedis:

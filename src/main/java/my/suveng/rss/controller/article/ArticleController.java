@@ -58,7 +58,7 @@ public class ArticleController {
         } else {
             articleListData = articleService.getArticleListData(rssUrl);
         }
-        log.info("返回结果：【{}】", JSON.toJSONString(articleListData));
+        //log.info("返回结果：【{}】", JSON.toJSONString(articleListData));
         return ResultBuilder.build(ResultEnums.SIMPLE_SUCCESS, articleListData);
     }
 
